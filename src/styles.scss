@@ -1,1 +1,28 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    font-family: 'Inter';
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #131111;
+    height: 100vh;
+    color: white;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000000;
+    height: 100vh;
+    color: white;
+}
+
+.content {
+    max-width: 1000px;
+    width: 100vw;
+}

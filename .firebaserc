@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "portfolio-2d2df": {
+      "hosting": {
+        "Portfolio-Website": [
+          "portfolio-2d2df"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "portfolio-2d2df"
+  }
+}
