@@ -1,0 +1,66 @@
+.skills {
+    font-size: 36px;
+    padding-top: 40px;
+}
+
+.section {
+    height: 1000px;
+}
+
+h1{
+    padding: 10px;
+    text-align: center;
+    font-size: 36px;
+}
+
+.skillSection {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 75px;
+
+}
+
+.box_1, .box_2, .box_3, .box_4, .box_5, .box_6, .box_7, .box_8, .box_9 {
+    background-color: white;
+    width: 280px;
+    height: 180px;
+    border-radius: 5px;
+    position: relative;
+    top: 50px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+
+    &:hover {
+        opacity: 1;
+        transform: scale(1.1);
+        transition: 225ms ease-in-out;
+    }
+
+    span {
+        font-weight: bold;
+    }
+}
+
+.innerBox_1, .innerBox_2, .innerBox_3, .innerBox_4, .innerBox_5, .innerBox_6, .innerBox_7, .innerBox_8, .innerBox_9 {
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    box-shadow: 0px 0px 4px 2px black;
+    border-radius: 100%;
+    position: relative;
+    top: 20px;
+    left: -170px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        width: 38px;
+        height: auto;
+    }
+
+}

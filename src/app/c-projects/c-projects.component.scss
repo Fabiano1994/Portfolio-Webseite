@@ -1,0 +1,107 @@
+h1{
+    padding: 10px;
+    text-align: center;
+    font-size: 36px;
+}
+.thirdSection {
+    height: 850px;
+    background-color: #000000;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.thirdSectionContent {
+    max-width: 1100px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.workApps {
+    padding: 20px;
+}
+
+.borderAngular {
+    border: 1.5px solid #fa2759;
+}
+
+.borderJavaScript {
+    border: 1.5px solid #2dfcd8;
+}
+
+.workAppsStyle {
+    width: 330px;
+    height: 260px;
+    margin: 20px;
+    object-fit: cover;
+    opacity: 0.7;
+
+    &:hover {
+        opacity: 1;
+        transform: scale(1.1);
+        transition: 225ms ease-in-out;
+    }
+}
+
+.workAppsTitle1 {
+    color: white;
+    position: absolute;
+    top: 25px;
+    left: 40px;
+}
+
+.workAppsTitle2 {
+    color: white;
+    position: absolute;
+    top: 25px;
+    left: 420px;
+}
+
+.workAppsTitle3 {
+    color: white;
+    position: absolute;
+    top: 25px;
+    left: 40px;
+}
+
+.workAppsTitle4 {
+    color: white;
+    position: absolute;
+    top: 25px;
+    left: 420px;
+}
+
+
+
+.workAppsTitleJS1 {
+    color: white;
+    position: absolute;
+    top: 260px;
+    left: 260px;
+}
+
+.workAppsTitleJS2 {
+    color: white;
+    position: absolute;
+    top: 260px;
+    left: 260px;
+}
+
+
+
+
+.workAppsTitleJS3 {
+    color: white;
+    position: absolute;
+    top: 260px;
+    left: 630px;
+}
+
+.workAppsTitleAng1 {
+    color: white;
+    position: absolute;
+    top: 260px;
+    left: 630px;
+}
