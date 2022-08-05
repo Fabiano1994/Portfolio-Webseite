@@ -1,14 +1,26 @@
 footer {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     background-color: #FFFFFF;
     height: 30vh;
     color: #8491A0;
 }
 
 .footerContent {
+    display: flex;
+    justify-content: space-between;
     max-width: 1000px;
     width: 100vw;
+    padding-left: 80px;
+}
+
+.footerLink {
+    text-decoration: none;
+    color: #8491A0;
+    cursor: pointer;
+
+    &:hover {
+        filter: brightness(1.3);
+    }
 }
