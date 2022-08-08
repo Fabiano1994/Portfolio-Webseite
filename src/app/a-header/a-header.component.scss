@@ -1,10 +1,13 @@
 header {
-    // align-items: center;
     background-color: #000000;
     height: 100vh;
     color: white;
     padding-left: 80px;
     padding-top: 30px;
+
+    @media (max-width: 1111px) {
+        padding: 20px;
+    }
 }
 
 .navbar {
@@ -25,6 +28,11 @@ header {
     img {
         height: 48px;
     }
+
+    @media (max-width: 1111px) {
+        padding-right: 0;
+        align-items: normal;
+    }
 }
 
 .navbarLinks {
@@ -42,6 +50,34 @@ header {
 
     a {
         margin-top: 60px;
+    }
+
+
+    @media (max-width: 1111px) {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+        font-size: 30px;
+        margin-bottom: 30px;
+        text-align: center;
+        padding: 0;
+        justify-content: center;
+
+        a {
+            margin-top: 30px;
+        }
+    }
+}
+    
+
+.contactBtnDiv {
+    display: flex;
+    justify-content: left;
+
+    @media (max-width: 1111px) {
+        justify-content: center;
+        display: flex;
     }
 }
 
@@ -62,6 +98,11 @@ header {
         filter: brightness(1.3);
         background-color: #131111;
     }
+
+    @media (max-width: 1111px) {
+        width: 145px;
+        height: 50px;
+    }
 }
 
 .profilePic {
@@ -71,10 +112,20 @@ header {
         height: auto;
         border-radius: 100%;
     }
-
+    @media (max-width: 1111px) {
+        padding-left: 0;
+        img {
+        width: 260px;
+        }
+    }
+    @media (max-width: 400px) {
+        img {
+        width: 200px;
+        }
+    }
 }
 
-.introScroll {
+.nextSectionBtn {
     img {
         position: absolute;
         top: 600px;
@@ -85,4 +136,60 @@ header {
         padding: 16px;
         width: 20px;
     }
+    @media (max-width: 1111px) {
+        img {
+            top: 607px;
+            left: 47%;
+        }
+    }
+}
+
+.mobileNavbar {
+    margin-right: 20px;
+    margin-bottom: 40px;
+
+    @media (max-width: 1111px) {
+        img {
+            height: 40px;
+        }
+    }
+
+}
+
+#mobileNavbarContent {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    width: 100%;
+    height: 93vh;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 50px;
+
+    a {
+        color: white;
+        text-decoration: none;
+        font-size: 40px;
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 1111px) {
+    .hideMobile {
+        display: none;
+    }
+}
+
+@media (min-width: 1111px) {
+    .hideDesktop {
+        display: none;
+    }
+}
+
+.d-none {
+    display: none !important;
 }

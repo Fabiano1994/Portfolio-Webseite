@@ -15,4 +15,24 @@ export class AHeaderComponent implements OnInit {
     AOS.init();
   }
 
+  mobileNavbar() {
+    document.getElementById('mobileNavbarContent').classList.remove('d-none');
+  }
+
+  closeMobileNavbar() {
+    document.getElementById('mobileNavbarContent').classList.add('d-none');
+  }
+
+  openHome() { 
+    this.closeMobileNavbar();
+  }
+
+  openAbout() { 
+    this.closeMobileNavbar();
+  }
+
+  openProjects() {
+    this.closeMobileNavbar();
+  }
+
 }

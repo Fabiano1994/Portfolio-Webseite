@@ -1,10 +1,19 @@
-<header>
+<header id="home">
 
     <div class="navbar">
         <img src="./assets/img/logo3.png" alt="">
-        <div class="navbarLinks"><a href="#">HOME</a>
-            <a href="#">ABOUT</a>
-            <a href="#">PORTFOLIO</a>
+        <div class="navbarLinks hideMobile"><a href="#">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="#portfolio">PORTFOLIO</a>
+        </div>
+        <div class="mobileNavbar hideDesktop">
+            <img (click)="mobileNavbar()" src="./assets/img/mobilemenu.png">
+        </div>
+        <div id="mobileNavbarContent" class="d-none hideDesktop">
+            <span (click)="closeMobileNavbar()" class="closeMobileBtn">X</span>
+            <a (click)="openHome()" href="#home">HOME</a>
+            <a (click)="openAbout()" href="#about">ABOUT</a>
+            <a (click)="openProjects()" href="#portfolio">PROJECTS</a>
         </div>
     </div>
 
@@ -12,14 +21,14 @@
         <div>
             Hi, <br>
             I´m <span style="color: #FA2759">Fabian</span> Wagner <br>
-            Front End developer
+            Front End develop<span style="color: #2dfcd8">e</span>r
 
-            <a class="contactBtn" href="#contact">Contact Me</a>
+            <div class="contactBtnDiv"><a class="contactBtn" href="#contact">Contact Me</a></div>
         </div>
         <div class="profilePic">
             <img src="./assets/img/profilePic.png" alt="">
         </div>
-        <div class="introScroll">
+        <div class="nextSectionBtn">
             <a href="#skills">
                 <img src="./assets/img/arrow.png">
             </a>

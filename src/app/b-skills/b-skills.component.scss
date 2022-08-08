@@ -5,6 +5,10 @@
 
 .section {
     height: 1000px;
+
+    @media (max-width: 1111px) {
+        height: 2400px;
+    }
 }
 
 h1{

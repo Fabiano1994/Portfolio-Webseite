@@ -13,10 +13,11 @@ h1{
 
 .thirdSectionContent {
     max-width: 1100px;
-    width: 100vw;
+    width: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
+    overflow: hidden;
 }
 
 .workApps {
