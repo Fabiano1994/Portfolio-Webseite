@@ -7,7 +7,7 @@
     height: 1000px;
 
     @media (max-width: 1111px) {
-        height: 2400px;
+        height: 1479px;
     }
 }
 
@@ -46,6 +46,13 @@ h1{
     span {
         font-weight: bold;
     }
+
+    @media (max-width: 1111px) {
+        width: 180px;
+        height: 80px;
+        left: 8%;
+        position: relative;
+    }
 }
 
 .innerBox_1, .innerBox_2, .innerBox_3, .innerBox_4, .innerBox_5, .innerBox_6, .innerBox_7, .innerBox_8, .innerBox_9 {
@@ -67,4 +74,8 @@ h1{
         height: auto;
     }
 
+    @media (max-width: 1111px) {
+        top: 17px;
+        left: -96px;
+    }
 }

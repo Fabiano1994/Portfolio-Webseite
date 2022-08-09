@@ -18,10 +18,22 @@ h1{
     align-items: center;
     flex-direction: column;
     overflow: hidden;
+
+    @media (max-width: 333px) {
+        img {
+            height: 1500px;
+        }
+    }
 }
 
 .workApps {
     padding: 20px;
+    @media (max-width: 333px) {
+        img {
+            width: 220px;
+            height: 155px;
+        }
+    }
 }
 
 .borderAngular {
@@ -46,61 +58,28 @@ h1{
     }
 }
 
-.workAppsTitle1 {
+.workAppsTitle1, .workAppsTitle3 {
     color: white;
     position: absolute;
     top: 25px;
     left: 40px;
 }
 
-.workAppsTitle2 {
+.workAppsTitle2, .workAppsTitle4 {
     color: white;
     position: absolute;
     top: 25px;
     left: 420px;
 }
 
-.workAppsTitle3 {
-    color: white;
-    position: absolute;
-    top: 25px;
-    left: 40px;
-}
-
-.workAppsTitle4 {
-    color: white;
-    position: absolute;
-    top: 25px;
-    left: 420px;
-}
-
-
-
-.workAppsTitleJS1 {
+.workAppsTitleJS1, .workAppsTitleJS2 {
     color: white;
     position: absolute;
     top: 260px;
     left: 260px;
 }
 
-.workAppsTitleJS2 {
-    color: white;
-    position: absolute;
-    top: 260px;
-    left: 260px;
-}
-
-
-
-
-.workAppsTitleJS3 {
-    color: white;
-    position: absolute;
-    top: 260px;
-    left: 630px;
-}
-
-.workAppsTitleAng1 {
+.workAppsTitleJS3, .workAppsTitleAng1 {
     color: white;
     position: absolute;
     top: 260px;
