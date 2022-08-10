@@ -9,6 +9,10 @@ h1{
     color: white;
     display: flex;
     justify-content: center;
+
+    @media (max-width: 1111px) { 
+        height: 950px;
+    }
 }
 
 .thirdSectionContent {
@@ -19,20 +23,20 @@ h1{
     flex-direction: column;
     overflow: hidden;
 
-    @media (max-width: 333px) {
-        img {
-            height: 1500px;
-        }
+    @media (max-width: 1111px) {
+        overflow: hidden;
     }
 }
 
 .workApps {
     padding: 20px;
-    @media (max-width: 333px) {
+    @media (max-width: 1111px) {
+        padding: 0;
         img {
             width: 220px;
             height: 155px;
         }
+        
     }
 }
 
@@ -56,6 +60,12 @@ h1{
         transform: scale(1.1);
         transition: 225ms ease-in-out;
     }
+
+    @media (max-width: 1110px) {
+        width: 150px;
+        height: 150px;
+    }
+
 }
 
 .workAppsTitle1, .workAppsTitle3 {
@@ -63,6 +73,10 @@ h1{
     position: absolute;
     top: 25px;
     left: 40px;
+    @media (max-width: 1111px) {
+        top: 23px;
+        left: 68px;
+    }
 }
 
 .workAppsTitle2, .workAppsTitle4 {
@@ -70,6 +84,10 @@ h1{
     position: absolute;
     top: 25px;
     left: 420px;
+    @media (max-width: 1110px) {
+        top: 226px;
+        left: 80px;
+    }
 }
 
 .workAppsTitleJS1, .workAppsTitleJS2 {
@@ -77,6 +95,10 @@ h1{
     position: absolute;
     top: 260px;
     left: 260px;
+    @media (max-width: 1110px) {
+        top: 153px;
+        left: 92px;
+    }
 }
 
 .workAppsTitleJS3, .workAppsTitleAng1 {
@@ -84,4 +106,15 @@ h1{
     position: absolute;
     top: 260px;
     left: 630px;
+    @media (max-width: 1110px) {
+        top: 354px;
+        left: 92px;
+    }
+}
+
+.mobileMode {
+    @media (max-width: 1110px) {
+        display: flex;
+        flex-direction: column;
+    }
 }

@@ -12,10 +12,12 @@ footer {
     justify-content: space-between;
     max-width: 1111px;
     width: 100vw;
+    text-align: center;
+    align-items: center;
 
     img {
         height: 40px;
-        padding-left: 80px;
+        margin: 20px 30px;
     }
 
     @media (max-width: 1111px) {
@@ -26,16 +28,11 @@ footer {
 .footerLink {
     display: flex;
     cursor: pointer;
-    margin-left: 40px;
 
     a {
         text-decoration: none;
         color: #8491A0;
         text-align: center !important;
-    }
-
-    @media (max-width: 1111px) {
-        margin-left: 10px;
     }
 
     &:hover {

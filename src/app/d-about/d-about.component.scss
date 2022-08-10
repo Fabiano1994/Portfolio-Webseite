@@ -4,10 +4,10 @@
     color: white;
     display: flex;
     justify-content: center;
+    overflow-x: hidden;
     @media (max-width: 1110px) {
         height: 1900px;
         width: 100%;
-        overflow-x: hidden;
     }
 }
 
