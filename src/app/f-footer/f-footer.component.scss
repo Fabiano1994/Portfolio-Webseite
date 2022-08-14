@@ -47,3 +47,54 @@ footer {
         margin-right: 10px;
     }
 }
+
+#privacy,
+#imprint {
+    position: absolute;
+    bottom: -3665px;
+    color: white;
+    background-color: #131111;
+    height: 890px;
+    width: 60%;
+    padding: 10px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border: 1px solid #2dfcd8;
+    text-align: center;
+    cursor: default;
+
+    @media (max-width: 1110px) {
+        bottom: -4965px;
+        height: 792px;
+        width: 93%;
+    }
+
+    a {
+        text-decoration: none;
+        color: rgba(152, 154, 255, 0.712);
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    #privacy {
+        text-align: start !important;
+    }
+
+    button {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        background: none;
+        border: none;
+        font-weight: bold;
+        font-size: 26px;
+        color: #2dfcd8;
+        cursor: pointer;
+
+        &:hover {
+            transform: scale(1.2);
+        }
+    }
+}

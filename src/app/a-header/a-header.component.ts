@@ -35,4 +35,6 @@ export class AHeaderComponent implements OnInit {
     this.closeMobileNavbar();
   }
 
+  
+
 }
