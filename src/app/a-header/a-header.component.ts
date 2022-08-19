@@ -35,6 +35,8 @@ export class AHeaderComponent implements OnInit {
     this.closeMobileNavbar();
   }
 
-  
+  openContact() {
+    this.closeMobileNavbar();
+  }
 
 }
