@@ -4,14 +4,14 @@ h1{
     font-size: 36px;
 }
 .thirdSection {
-    height: 850px;
+    height: 1111px;
     background-color: #000000;
     color: white;
     display: flex;
     justify-content: center;
 
     @media (max-width: 1111px) { 
-        height: 950px;
+        height: 750px;
     }
 }
 
@@ -74,8 +74,8 @@ h1{
     top: 25px;
     left: 40px;
     @media (max-width: 1111px) {
-        top: 23px;
-        left: 68px;
+        top: 25px;
+        left: 82px;
     }
 }
 
@@ -83,9 +83,9 @@ h1{
     color: white;
     position: absolute;
     top: 25px;
-    left: 420px;
+    left: 39px;
     @media (max-width: 1110px) {
-        top: 226px;
+        top: 25px;
         left: 80px;
     }
 }
@@ -104,17 +104,17 @@ h1{
 .workAppsTitleJS3, .workAppsTitleAng1 {
     color: white;
     position: absolute;
-    top: 260px;
-    left: 630px;
+    top: 258px;
+    left: 270px;
     @media (max-width: 1110px) {
-        top: 354px;
-        left: 92px;
+        top: 152px;
+        left: 94px;
     }
 }
 
 .mobileMode {
-    @media (max-width: 1110px) {
+
         display: flex;
         flex-direction: column;
-    }
+
 }
