@@ -51,7 +51,7 @@ footer {
 #privacy,
 #imprint {
     position: absolute;
-    bottom: -3665px;
+    top: 3640px;
     color: white;
     background-color: #131111;
     height: 890px;
@@ -63,8 +63,12 @@ footer {
     text-align: center;
     cursor: default;
 
-    @media (max-width: 1110px) {
-        bottom: -5490px;
+    @media (max-width: 1245x) {
+        top: 4589px !important;
+    }
+    
+    @media (max-width: 1111x) {
+        top: 5305px;
         height: 792px;
         width: 93%;
     }
