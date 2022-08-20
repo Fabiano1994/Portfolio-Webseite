@@ -119,7 +119,7 @@ header {
         height: auto;
         border-top-right-radius: 15px;
         border-top-left-radius: 200px;
-        border-bottom-left-radius: 15px;
+        border-bottom-left-radius: 12%;
         border-bottom-right-radius: 200px;
     }
     @media (max-width: 1111px) {
@@ -128,6 +128,7 @@ header {
         width: 260px;
         padding-bottom: 15px;
         padding-top: 15px;
+        border-bottom-left-radius: 12%;
         }
     }
     @media (max-width: 400px) {
@@ -135,6 +136,7 @@ header {
         width: 200px;
         border-top-left-radius: 140px;
         border-bottom-right-radius: 140px;
+        border-bottom-left-radius: 13%;
         }
     }
 }
